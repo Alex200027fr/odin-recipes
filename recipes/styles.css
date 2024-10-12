@@ -5,19 +5,30 @@
 }
 
 ul {
-    font-size: 20px;
+    font-size: 17px;
 }
 
 ol {
-    font-size: 20px;
+    font-size: 17px;
 }
 
-h4 {
+h1 {
+    margin-bottom: 1px;
+}
+h2 {
     font-size: 25px;
     margin-bottom: 0.5em;
     margin-top: 0.5em;
 }
 
+p.first_line {
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+p{ 
+    margin-bottom: -5px;
+}
 img {
     display: block;
     margin: auto;
