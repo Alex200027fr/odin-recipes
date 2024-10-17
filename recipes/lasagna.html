@@ -5,17 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lasagna recipe</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <div class="container">
+        <div class="title">
     <h1>Lasagna Recipe</h1>
-        <img src="./images/lasagna_image.jpeg" alt="image of delicious lasagnas" width="500px" height="auto">
-            <div class="box_1 lasagna">
-            <h2>Description</h2>
-                <p>A lasagna is a type of pasta originating from <em>Italy</em>, specifically from the <em>Emilia-Romagna</em> region</p>
-                <p>It is a wide, flat sheet of pasta, often with rufled edges, designed for layering with sauces and cheeses.</p>
-            </div>
-        <div class="container lasagna">
-            <div class="box_2 lasagna">
+        </div>
+    <div class="content">
+        <div class ="img"><img src="./images/lasagna_image.jpeg" alt="image of delicious lasagnas" width="500px" height="auto"></div>
+        <div class="column">
+            <div class="description">
+                <h2>Description</h2>
+                        <p>A lasagna is a type of pasta originating from <em>Italy</em>, specifically from the <em>Emilia-Romagna</em> region</p>
+                        <p>It is a wide, flat sheet of pasta, often with rufled edges, designed for layering with sauces and cheeses.</p>
+                </div>
+        <div class="ingredients">
                 <h2>Ingredients:</h2>
                 <ul>
                     <li><strong>Meat:</strong>Ground beef, Italian Sausage, or a combination of both are commonly used.</li> 
@@ -26,10 +31,12 @@
                     <li><strong>Herbs and spices:</strong>Italian seasoning, oregano, basil, salt, and pepper are commonly used to season the dish.</li>
                     <li><strong>Eggs:</strong> Beaten eggs are often used to enrich the ricotta cheese mixture.</li>
                 </ul>
-            </div>
-            <div class="box_3 lasagna">
+        </div>
+        </div>
+    </div>
+        <div class="steps">
             <h2>Steps:</h2>
-                <ol>
+                <ol id="steps">
                     <li>Make the meat sauce</li>
                     <li>Cook the noodles</li>
                     <li>Make the ricotta mixture</li>
@@ -37,8 +44,8 @@
                     <li>Cover with foil and bake</li>
                     <li>Let the lasagna rest before serving</li>
                 </ol>
-            </div>
-            <div class="box_4 lasagna">
+        </div>  
+        <div class="extra">
             <h2>How to layer the lasagnas ?</h2>
                 <ol>
                     <li>Meat sauces</li>
@@ -49,7 +56,7 @@
                     <li>Parmesan Cheese</li>
                     <li>Repeat the layers, then top with the remaining parmesan</li>
                 </ol>
-            </div>
         </div>
+    </div>
 </body>
 </html>
