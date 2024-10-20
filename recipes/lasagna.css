@@ -18,6 +18,7 @@ body {
     justify-content: center;
     flex: 1;
     order: -1;
+    overflow: hidden;
 }
 
 .container > .content {
@@ -33,6 +34,7 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    overflow: hidden;
 }
 
 img {
@@ -42,8 +44,9 @@ img {
 }
 
 
-.content > .img {
+.img {
     display: flex;
+    margin: 10px;
 }
     
 
@@ -61,6 +64,7 @@ img {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    overflow: hidden;
 }
 
 
