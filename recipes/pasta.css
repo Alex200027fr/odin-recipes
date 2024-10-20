@@ -1,8 +1,9 @@
-.container {
-    border: 3px solid #ffcc5c;
-    display: flex;
+body {
+    background-color: #ffe0e0;
+    margin: 0;
+    box-sizing: border-box;
     height: 100%;
-    flex-direction: column;
+    padding: 10px;
 }
 
 .container > .title {
@@ -12,12 +13,20 @@
     order: -1;
 }
 
+.container {
+    border: 3px solid #de5cff;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
 .container > .content {
     display: flex;
     flex-direction: row;
     flex: 1;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .content >.column{
@@ -27,9 +36,28 @@
     justify-content: space-evenly;
 }
 
+.column > .description{
+    width: 700px;
+    text-align: justify;
+}
+
+.content > .extra{
+    width: 500px;
+    text-align: justify;
+}
+
+.extra > h2{
+    text-align: center;
+}
+
 .content > .img {
     display: flex;
     flex-wrap: wrap;
+}
+
+img {
+    width: 400px;
+    height: auto;
 }
 
 .container > .content_2 {
@@ -39,6 +67,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top: 50px;
 }
 .content_2 > .column_2 {
     display: flex;
@@ -49,3 +78,11 @@
 }
 
 
+.steps{
+    width: 700px;
+    height: auto;
+}
+
+.steps > h2 {
+    text-align: center;
+}
